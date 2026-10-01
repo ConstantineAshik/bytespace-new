@@ -17,6 +17,19 @@ try {
       waitUntil: "networkidle",
     });
     assert.equal(response.status(), 200, route + " must be public");
+    if (route === "/") {
+      const backgrounds = await page
+        .locator(".testimonial-glows img")
+        .evaluateAll((images) => images.map((image) => image.src));
+      for (const src of backgrounds) {
+        const asset = await page.request.get(src);
+        assert.doesNotMatch(
+          await asset.text(),
+          /<text\b|<image\b|#050505/i,
+          "Testimonial backgrounds must contain only decorative gradients",
+        );
+      }
+    }
     await page.evaluate(() => document.fonts.ready);
     await page.locator("img").evaluateAll((images) =>
       Promise.all(
