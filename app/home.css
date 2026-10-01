@@ -1,0 +1,163 @@
+@theme {
+ --color-brand: #003be2; --color-lime: #d4fb20; --color-ink: #242528; --color-muted: #82868e; --color-offwhite: #f5f5f6;
+}
+.container { width: min(1200px, calc(100% - 48px)); margin-inline: auto; }
+.section-canvas { width: 1440px; margin-inline: auto; }
+.partners { height: 202px; background: var(--color-offwhite); display:flex; justify-content:center; padding-top:80px; }
+.partners>div { display:flex; align-items:end; gap:72px; height:42px; }
+.featured-courses { padding-top:72px; }
+.discovery-heading { display:flex; flex-direction:column; align-items:center; gap:16px; text-align:center; }
+.discovery-heading h2 { width:588px; font-family:var(--font-poppins); font-size:44px; font-weight:600; line-height:1.2; letter-spacing:-.44px; color:#040819; }
+.discovery-heading p, .learning-heading p { width:917px; font-size:18px; line-height:1.6; color:var(--color-muted); }
+.category-filters { margin-top:42px; display:flex; flex-direction:column; align-items:center; gap:21px; }
+.category-filters>div {display:flex; gap:16px; align-items:center;}
+.category-chip { padding:12px 16px; border-radius:24px; background:var(--color-offwhite); font-size:16px; font-weight:500; line-height:1.2; color:#4b4c53; cursor:pointer; white-space:nowrap; }
+.category-chip.is-active { background:var(--color-lime); color:var(--color-ink); }
+.category-chip.more-chip { background:transparent; color:var(--color-brand); padding:0; }
+.course-grid { display:grid; grid-template-columns:repeat(3,373px); gap:40px; margin-top:77px; }
+.course-card { height:384px; border:1px solid #ced0d3; border-radius:24px; padding:15px; position:relative; background:white; overflow:hidden; }
+.course-thumbnail { width:341px; height:195.145px; border-radius:12px; overflow:hidden; position:relative; }
+.course-badges { position:absolute; top:150px; left:12px; display:flex; gap:12px; }
+.course-badges span { font-size:12px; font-weight:500; line-height:1.2; padding:6px 12px; background:rgb(246 246 246 / .6); backdrop-filter:blur(4px); border-radius:24px; white-space:nowrap; color:#4f4f4f; }
+.course-meta { margin-top:21px; }
+.course-meta h3 { font-family:var(--font-poppins); font-size:20px; line-height:24px; letter-spacing:-.2px; font-weight:600; width:280px; color:black; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.course-meta h3[title="Learn Figma from Basic"] {width:290px;}
+.course-author {font-size:12px;line-height:19.2px;color:#4f4f4f;}
+.course-author a {color:var(--color-brand);}
+.course-students {display:flex;gap:12px;align-items:center;margin-top:16px;}
+.course-level {display:flex;align-items:center;gap:4px;border-radius:24px;background:var(--color-offwhite);padding:6px 12px;font-size:12px;line-height:14.4px;font-weight:500;color:#4b4c53;}
+.course-count {position:relative;width:32px;height:32px;}
+.course-count>span {position:absolute;inset:0;display:grid;place-items:center;font-size:12px;font-weight:500;line-height:20px;}
+.course-price {display:flex;align-items:end;margin-top:16px;color:#4f4f4f;line-height:19.2px;font-size:12px;}
+.course-price strong {font-family:var(--font-poppins);color:var(--color-brand);font-size:20px;line-height:24px;letter-spacing:-.2px;font-weight:600;}
+.course-rating {position:absolute;left:305px;top:231px;display:flex;align-items:center;line-height:28.8px;font-size:18px;color:#4f4f4f;}
+.empty-courses {padding-block:50px;text-align:center;color:var(--color-muted);}
+.learning-categories {padding-top:72px;padding-bottom:120px;}
+.learning-heading {display:flex;flex-direction:column;gap:16px;align-items:center;text-align:center;}
+.learning-heading h2 {font-family:var(--font-poppins);font-size:36px;line-height:1.2;font-weight:600;letter-spacing:-.36px;color:#040819;}
+.learning-category-grid {margin-top:68px;display:grid;grid-template-columns:repeat(6,167px);gap:40px;}
+.learning-category-card {height:167px;border:1px solid #ced0d3;border-radius:24px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:12px;color:var(--color-ink);}
+.learning-category-card>span {background:var(--color-lime);border-radius:40px;padding:12px;display:block;}
+.learning-category-card h3 {font-size:20px;font-weight:500;line-height:24px;}
+.growth-viewport,.cta-viewport {overflow:hidden;}
+.person-shadow {box-shadow:none;}
+[data-node-id="34:1038"] {isolation:isolate;transform:translateZ(0);z-index:2;}
+[data-node-id="34:1081"] {white-space:nowrap;}
+.person-shadow > img,.person-shadow > div {filter:drop-shadow(51.038px 72.912px 36px rgb(0 0 0 / .13)) drop-shadow(37.122px 53.032px 28px rgb(0 0 0 / .11)) drop-shadow(25.838px 36.912px 18px rgb(0 0 0 / .1)) drop-shadow(16.946px 24.209px 12px rgb(0 0 0 / .09)) drop-shadow(10.208px 14.582px 8.044px rgb(0 0 0 / .08)) drop-shadow(5.383px 7.69px 4.786px rgb(0 0 0 / .07)) drop-shadow(2.233px 3.19px 2.862px rgb(0 0 0 / .06)) drop-shadow(.518px .741px 1.518px rgb(0 0 0 / .04));}
+.testimonials-section {height:784px;position:relative;overflow:hidden;background:#fafafa;padding-top:74px;}
+.testimonial-content {position:relative;width:1204px;}
+.testimonials-heading {display:grid;grid-template-columns:577px 580px;gap:43px;align-items:end;}
+.testimonials-heading h2 {font-family:var(--font-poppins);font-weight:500;font-size:44px;line-height:52px;letter-spacing:-.44px;}
+.testimonials-heading>p {font-size:18px;line-height:28.8px;color:#4f4f4f;}
+.testimonial-grid {display:grid;grid-template-columns:repeat(3,374px);gap:41px;align-items:start;margin-top:72px;}
+.testimonial-card {padding:24px;background:white;border-radius:24px;}
+.testimonial-person {margin-top:24px;}
+.testimonial-person h3 {font-family:var(--font-poppins);font-weight:600;font-size:20px;letter-spacing:-.2px;}
+.testimonial-person p {font-size:18px;line-height:28.8px;}
+.testimonial-card blockquote {font-size:18px;line-height:28.8px;color:#4f4f4f;margin-top:24px;}
+.testimonial-glows {position:absolute;inset:0;pointer-events:none;}
+.testimonial-glows span {position:absolute;border-radius:50%;filter:blur(40px);background:radial-gradient(ellipse at center, rgb(203 252 1) 0%,rgb(203 252 1 / .23) 53%,rgb(203 252 1 / .06) 75%,rgb(203 252 1 / 0) 100%);}
+.testimonial-glows span:nth-child(1) {left:395px;top:-138px;width:672px;height:672px;opacity:.6;}
+.testimonial-glows span:nth-child(2) {left:842px;top:-241px;width:1137px;height:1137px;opacity:.4;}
+.testimonial-glows span:nth-child(3) {left:-442px;top:149px;width:1137px;height:1137px;opacity:.24;background:radial-gradient(ellipse at center,#003be2 0%,rgb(0 59 226 / .23) 53%,rgb(0 59 226 / .06) 75%,transparent 100%);}
+.site-footer {height:525px;padding-top:71px;background:white;color:#d1d1d1;border-top:1px solid #ced0d3;}
+.footer-top {display:grid;grid-template-columns:528px 580px;gap:92px;}
+.bytespace-logo {display:flex;gap:8.125px;align-items:flex-start;width:171px;height:37px;color:#f5f5f6;}
+.bytespace-logo span {font-family:var(--font-clash);font-weight:700;font-size:24px;line-height:30px;margin-top:7px;white-space:nowrap;}
+.footer-logo {color:black;}
+.footer-logo {color:#242528;}
+.footer-newsletter>p {font-size:14px;line-height:22px;margin-top:16px;}
+.newsletter-form {display:flex;gap:24px;margin-top:45px;position:relative;}
+.newsletter-form input {width:376px;height:52px;border-radius:100px;background:white;padding:13px 24px;font-size:16px;line-height:26px;color:#242528;border:1px solid #ced0d3;}
+.newsletter-form input::placeholder {color:#d1d1d1;}
+.newsletter-form button {height:46px;padding:12px 24px;border-radius:24px;background:#7f30f7;color:white;line-height:22px;font-size:18px;font-weight:500;cursor:pointer;}
+.footer-newsletter small {display:block;margin-top:24px;font-size:10px;line-height:19px;width:504px;}
+.newsletter-feedback {position:absolute;top:58px;font-size:12px;color:#242528;}
+.footer-links {display:grid;grid-template-columns:repeat(3,167px);gap:40px;}
+.footer-links h3 {font-size:16px;line-height:24px;font-weight:400;color:black;margin-bottom:24px;}
+.footer-links ul {display:flex;flex-direction:column;gap:16px;font-size:14px;line-height:22px;}
+.footer-copyright {margin-top:130px;padding-top:22px;border-top:1px solid #ced0d3;display:flex;justify-content:space-between;font-family:var(--font-poppins);font-size:12px;line-height:19px;}
+.footer-copyright>div {display:flex;gap:24px;}
+@media (min-width:768px) and (max-width:1439px) {
+.section-canvas {zoom:calc(100vw / 1440px);}
+}
+@media (max-width:1250px) {
+.partners>div {gap:32px;}
+.partners>div {gap:24px;}
+.partners img {width:130px;height:auto;}
+.course-grid {grid-template-columns:repeat(2,minmax(0,1fr));}
+.course-card {width:100%;}
+.course-thumbnail {width:100%;height:auto;aspect-ratio:341/195.145;}
+.course-rating {left:auto;right:15px;}
+.learning-category-grid {grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;}
+.category-filters>div {flex-wrap:wrap;justify-content:center;}
+.discovery-heading p,.learning-heading p {width:min(917px,100%);}
+.testimonials-section {height:auto;padding-bottom:72px;}
+.testimonial-content {width:min(1204px,calc(100% - 48px));}
+.testimonials-heading {grid-template-columns:1fr 1fr;gap:32px;}
+.testimonial-grid {grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;}
+.site-footer {height:auto;padding-bottom:48px;}
+.footer-top {grid-template-columns:1fr 1fr;gap:40px;}
+.footer-links {grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;}
+.footer-newsletter small {width:100%;}
+.newsletter-form input {width:100%;min-width:0;}
+}
+@media (max-width:767px) {
+.container {width:calc(100% - 40px);}
+.partners {height:auto;padding:36px 20px;}
+.partners>div {height:auto;flex-wrap:wrap;justify-content:center;gap:24px;}
+.partners img {width:125px;height:auto;}
+.featured-courses {padding-top:56px;}
+.discovery-heading h2 {font-size:32px;width:100%;line-height:1.2;letter-spacing:-.32px;}
+.discovery-heading p,.learning-heading p {font-size:16px;}
+.category-filters {margin-top:32px;gap:12px;}
+.category-filters>div {gap:10px;}
+.category-chip {font-size:14px;padding:10px 14px;}
+.course-grid {grid-template-columns:1fr;margin-top:40px;gap:24px;}
+.course-card {height:384px;}
+.course-meta h3 {max-width:calc(100% - 48px);}
+.course-meta h3[title="Learn Figma from Basic"] {max-width:calc(100% - 48px);}
+.course-badges {gap:6px;top:auto;bottom:16px;left:10px;}
+.course-badges span {padding:6px 8px;font-size:10px;}
+.learning-categories {padding-top:56px;padding-bottom:56px;}
+.learning-heading h2 {font-size:28px;line-height:1.2;}
+.learning-category-grid {grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:32px;}
+.learning-category-card {height:150px;}
+.learning-category-card h3 {font-size:18px;}
+.section-canvas {width:100%;}
+[data-node-id="34:1159"] {height:auto;min-height:1750px;}
+[data-node-id="34:1160"] {position:relative;left:auto;top:auto;padding:56px 20px;width:100%;gap:48px;}
+[data-node-id="34:1157"],[data-node-id="34:1158"] {flex-direction:column;gap:32px;width:100%;}
+[data-node-id="34:768"],[data-node-id="34:897"] {width:100%;gap:24px;}
+[data-node-id="34:771"],[data-node-id="34:900"] {width:100%;font-size:32px;}
+[data-node-id="34:772"],[data-node-id="34:901"] {width:100%;font-size:16px;}
+[data-node-id="34:1155"],[data-node-id="34:1156"] {zoom:calc((100vw - 40px) / 577px);}
+[data-node-id="34:1158"]>[data-node-id="34:897"] {order:-1;}
+[data-node-id="34:1307"] {left:-1100px;}
+[data-node-id="34:1161"] {height:600px;}
+[data-node-id="34:1170"] {width:calc(100% - 40px);gap:24px;}
+[data-node-id="34:1171"],[data-node-id="34:1172"] {width:100%;}
+[data-node-id="34:1171"] span {font-size:32px;}
+[data-node-id="34:1172"] {font-size:16px;}
+[data-node-id="46:78"] {pointer-events:none;}
+[data-node-id="46:78"]>div {opacity:.7;}
+[data-node-id="34:1206"] {width:150px;top:-50px;height:150px;left:0;}
+[data-node-id="34:1236"] {width:70px;height:70px;left:70px;top:5px;}
+[data-node-id="46:61"] {width:80px;height:80px;left:calc(100% - 40px);}
+[data-node-id="46:73"] {width:150px;height:150px;left:calc(100% + 40px);top:0;}
+[data-node-id="46:55"] {width:80px;height:80px;left:10px;top:auto;bottom:0;}
+[data-node-id="46:67"] {width:120px;height:120px;left:45px;top:auto;bottom:-70px;}
+[data-node-id="34:1221"] {width:120px;height:120px;left:calc(100% - 20px);top:auto;bottom:-30px;}
+.testimonials-section {padding-top:56px;padding-bottom:56px;}
+.testimonial-content {width:calc(100% - 40px);}
+.testimonials-heading {grid-template-columns:1fr;gap:24px;}
+.testimonials-heading h2 {font-size:32px;line-height:1.2;}
+.testimonials-heading>p {font-size:16px;line-height:1.6;}
+.testimonial-grid {grid-template-columns:1fr;margin-top:32px;gap:24px;}
+.site-footer {padding-top:48px;}
+.footer-top {grid-template-columns:1fr;gap:40px;}
+.footer-links {gap:16px;}
+.footer-links ul {font-size:12px;}
+.footer-copyright {margin-top:48px;flex-direction:column;gap:16px;}
+.footer-copyright>div {gap:16px;flex-wrap:wrap;}
+}
