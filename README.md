@@ -38,4 +38,4 @@ Checks cover routes, image loading, responsive overflow, category filters, and f
 
 ## Git workflow
 
-Implementation is on `feature/bytespace-landing-page`, with incremental commits and an open, unmerged pull request to `main`. Vercel is connected to the repository; production is published from the feature branch.
+The implementation has been merged into `main` through the linked pull request. Vercel is connected to the repository, and production is published from `main`.
