@@ -1,0 +1,5 @@
+validation/
+*.fig
+node_modules/
+.next/
+*.tsbuildinfo
