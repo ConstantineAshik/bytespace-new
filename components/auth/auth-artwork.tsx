@@ -1,0 +1,6 @@
+import AssetImage from '@/components/ui/asset-image';
+import CourseCard from '@/components/course/course-card';
+import {courses} from '@/data/courses';
+const avatars=['d0fbe','cb015','b27d0','85dac','50032','ce2e1','9c73f'];
+export default function AuthArtwork({signup=false}:{signup?:boolean}){return <div className={`auth-artwork ${signup?'signup-artwork':''}`} aria-label="ByteSpace featured courses"><div className="auth-course-back"><CourseCard course={courses[1]}/></div><div className="auth-course-front"><CourseCard course={courses[2]}/></div><div className="auth-happy"><p>Happy Students</p><div className="auth-rating">4.5 (240)<AssetImage src="/assets/4fa90.svg" alt="" width={13.1625} height={12.5676}/></div><div className="auth-avatars">{avatars.map(name=><AssetImage key={name} src={`/assets/${name}.png`} alt="" width={43} height={43}/>) }<span>2K+</span></div></div><AssetImage className="auth-ornament-top" src="/assets/auth-cone-top.svg" alt="" width={146} height={146}/><AssetImage className="auth-ornament-bottom" src={signup?"/assets/auth-ring.svg":"/assets/auth-ring-login.svg"} alt="" width={188} height={188}/><AssetImage className="auth-ornament-coil" src="/assets/auth-coil.svg" alt="" width={175} height={175}/></div>;}
+

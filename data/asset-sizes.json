@@ -147,6 +147,18 @@
     "width": 500,
     "height": 500
   },
+  "/assets/auth-coil.svg": {
+    "width": 175,
+    "height": 175
+  },
+  "/assets/auth-cone-top.svg": {
+    "width": 146,
+    "height": 146
+  },
+  "/assets/auth-ring.svg": {
+    "width": 188,
+    "height": 188
+  },
   "/assets/b0c08.svg": {
     "width": 36,
     "height": 36
@@ -223,9 +235,17 @@
     "width": 1442,
     "height": 1026
   },
+  "/assets/facebook-auth.svg": {
+    "width": 72,
+    "height": 72
+  },
   "/assets/footer-logo.svg": {
     "width": 29,
     "height": 32
+  },
+  "/assets/google-auth.svg": {
+    "width": 72,
+    "height": 72
   },
   "/assets/testimonial-0.png": {
     "width": 200,

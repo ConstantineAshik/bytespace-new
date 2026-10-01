@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @import "./fonts.css";
 @import "./home.css";
+@import "./auth.css";
 @theme { --font-satoshi: "Satoshi", sans-serif; --font-poppins: "Poppins", sans-serif; --font-clash: "Clash Display", sans-serif; }
 body { margin: 0; font-family: "Satoshi", sans-serif; }
 a { text-decoration: none; }
