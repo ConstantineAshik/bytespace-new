@@ -1,0 +1,274 @@
+{
+  "/assets/cta-coil.png": {
+    "width": 2500,
+    "height": 2500
+  },
+  "/assets/auth-coil.svg": {
+    "width": 175,
+    "height": 175
+  },
+  "/assets/auth-cone-lime.svg": {
+    "width": 188,
+    "height": 188
+  },
+  "/assets/auth-cone-white.svg": {
+    "width": 188,
+    "height": 188
+  },
+  "/assets/auth-torus.svg": {
+    "width": 146,
+    "height": 146
+  },
+  "/assets/bytespace-logo-lime.svg": {
+    "width": 28.875,
+    "height": 31.5
+  },
+  "/assets/bytespace-logo-purple.svg": {
+    "width": 29,
+    "height": 32
+  },
+  "/assets/category-business.svg": {
+    "width": 36,
+    "height": 36
+  },
+  "/assets/category-design.svg": {
+    "width": 36,
+    "height": 36
+  },
+  "/assets/category-development.svg": {
+    "width": 36,
+    "height": 36
+  },
+  "/assets/category-marketing.svg": {
+    "width": 36,
+    "height": 36
+  },
+  "/assets/category-photography.svg": {
+    "width": 36,
+    "height": 36
+  },
+  "/assets/category-software.svg": {
+    "width": 36,
+    "height": 36
+  },
+  "/assets/course-level.svg": {
+    "width": 20,
+    "height": 20
+  },
+  "/assets/course-student-1.png": {
+    "width": 64,
+    "height": 64
+  },
+  "/assets/course-student-2.png": {
+    "width": 64,
+    "height": 64
+  },
+  "/assets/course-student-3.png": {
+    "width": 64,
+    "height": 64
+  },
+  "/assets/course-student-4.png": {
+    "width": 64,
+    "height": 64
+  },
+  "/assets/course-student-count.svg": {
+    "width": 32,
+    "height": 32
+  },
+  "/assets/creator-card-mask.png": {
+    "width": 432,
+    "height": 432
+  },
+  "/assets/creator-check.svg": {
+    "width": 24,
+    "height": 24
+  },
+  "/assets/creator-glow.svg": {
+    "width": 752,
+    "height": 752
+  },
+  "/assets/creator-portrait.png": {
+    "width": 500,
+    "height": 500
+  },
+  "/assets/cta-grid.svg": {
+    "width": 1442,
+    "height": 1026
+  },
+  "/assets/cta-coil-tint.png": {
+    "width": 378,
+    "height": 378
+  },
+  "/assets/decorative-coil.png": {
+    "width": 2500,
+    "height": 2500
+  },
+  "/assets/decorative-cone.png": {
+    "width": 2500,
+    "height": 2500
+  },
+  "/assets/growth-card-mask.png": {
+    "width": 432,
+    "height": 432
+  },
+  "/assets/growth-course-student-count.svg": {
+    "width": 32,
+    "height": 32
+  },
+  "/assets/growth-grid.svg": {
+    "width": 2536,
+    "height": 2471
+  },
+  "/assets/hero-bottom-coil-tint.png": {
+    "width": 352,
+    "height": 352
+  },
+  "/assets/hero-coil-tint.png": {
+    "width": 664,
+    "height": 664
+  },
+  "/assets/hero-glow.svg": {
+    "width": 1149,
+    "height": 1149
+  },
+  "/assets/hero-grid.svg": {
+    "width": 1442,
+    "height": 1026
+  },
+  "/assets/hero-left-cone-tint.png": {
+    "width": 688,
+    "height": 688
+  },
+  "/assets/hero-left-cone.png": {
+    "width": 2500,
+    "height": 2500
+  },
+  "/assets/hero-right-cone-tint.png": {
+    "width": 744,
+    "height": 744
+  },
+  "/assets/hero-right-cone.png": {
+    "width": 2500,
+    "height": 2500
+  },
+  "/assets/hero-small-coil-tint.png": {
+    "width": 774,
+    "height": 774
+  },
+  "/assets/hero-small-cone-tint.png": {
+    "width": 378,
+    "height": 378
+  },
+  "/assets/hero-small-cone.png": {
+    "width": 2500,
+    "height": 2500
+  },
+  "/assets/hero-student.png": {
+    "width": 516,
+    "height": 483
+  },
+  "/assets/partner-logo-1.svg": {
+    "width": 167,
+    "height": 41
+  },
+  "/assets/partner-logo-2.svg": {
+    "width": 168,
+    "height": 41
+  },
+  "/assets/partner-logo-3.svg": {
+    "width": 170,
+    "height": 41
+  },
+  "/assets/partner-logo-4.svg": {
+    "width": 170,
+    "height": 41
+  },
+  "/assets/partner-logo-5.svg": {
+    "width": 169,
+    "height": 42
+  },
+  "/assets/rating-star-lime.svg": {
+    "width": 13.1625,
+    "height": 12.5676
+  },
+  "/assets/rating-star.svg": {
+    "width": 24,
+    "height": 24
+  },
+  "/assets/revenue-arrow.svg": {
+    "width": 24,
+    "height": 24
+  },
+  "/assets/search.svg": {
+    "width": 24,
+    "height": 24
+  },
+  "/assets/shopping-bag.svg": {
+    "width": 24,
+    "height": 24
+  },
+  "/assets/social-facebook.svg": {
+    "width": 72,
+    "height": 72
+  },
+  "/assets/social-google.svg": {
+    "width": 72,
+    "height": 72
+  },
+  "/assets/student-avatar-1.png": {
+    "width": 86,
+    "height": 86
+  },
+  "/assets/student-avatar-2.png": {
+    "width": 86,
+    "height": 86
+  },
+  "/assets/student-avatar-3.png": {
+    "width": 86,
+    "height": 86
+  },
+  "/assets/student-avatar-4.png": {
+    "width": 86,
+    "height": 86
+  },
+  "/assets/student-avatar-5.png": {
+    "width": 86,
+    "height": 86
+  },
+  "/assets/student-avatar-6.png": {
+    "width": 86,
+    "height": 86
+  },
+  "/assets/student-avatar-7.png": {
+    "width": 86,
+    "height": 86
+  },
+  "/assets/students-count.svg": {
+    "width": 43,
+    "height": 43
+  },
+  "/assets/testimonial-alex.png": {
+    "width": 200,
+    "height": 200
+  },
+  "/assets/testimonial-blue-left.svg": {
+    "width": 1217,
+    "height": 1217
+  },
+  "/assets/testimonial-james.png": {
+    "width": 200,
+    "height": 200
+  },
+  "/assets/testimonial-lime-center.svg": {
+    "width": 752,
+    "height": 752
+  },
+  "/assets/testimonial-lime-right.svg": {
+    "width": 1217,
+    "height": 1217
+  },
+  "/assets/testimonial-sarah.png": {
+    "width": 200,
+    "height": 200
+  }
+}
